@@ -1,12 +1,12 @@
 #include <iostream>
 
 int main() {
-	int x = 0;
+	long long x = 0;
 	int n;
 	std::cin >> n;
 
 	for (int m = 0; m < n; m++) {
-		int addition;
+		long long addition;
 		std::cin >> addition;
 		x += addition;
 	}
